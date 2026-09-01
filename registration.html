@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Online Competitive Exam Registration</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>ONLINE COMPETITIVE EXAM REGISTRATION FORM</h2>
+
+<form id="registrationForm">
+
+<h3>Personal Details</h3>
+
+<label>First Name</label>
+<input type="text" id="fname">
+<small></small>
+
+<label>Last Name</label>
+<input type="text" id="lname">
+<small></small>
+
+<label>Father's Name</label>
+<input type="text" id="father">
+<small></small>
+
+<label>Mother's Name</label>
+<input type="text" id="mother">
+<small></small>
+
+<label>Date of Birth</label>
+<input type="date" id="dob">
+<small></small>
+
+<label>Gender</label>
+
+<div class="gender">
+
+<input type="radio" name="gender" value="Male"> Male
+
+<input type="radio" name="gender" value="Female"> Female
+
+<input type="radio" name="gender" value="Other"> Other
+
+</div>
+
+<small id="genderError"></small>
+
+<h3>Educational Details</h3>
+
+<table>
+
+<tr>
+
+<th>Qualification</th>
+<th>Institution Name</th>
+<th>Joining Year</th>
+<th>Passed Out Year</th>
+
+</tr>
+
+<tr>
+
+<td><input type="text" placeholder="Qualification"></td>
+<td><input type="text" placeholder="Institution"></td>
+<td><input type="number" placeholder="YYYY"></td>
+<td><input type="number" placeholder="YYYY"></td>
+
+</tr>
+
+<tr>
+
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="number"></td>
+<td><input type="number"></td>
+
+</tr>
+
+<tr>
+
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="number"></td>
+<td><input type="number"></td>
+
+</tr>
+
+</table>
+
+<h3>Upload Documents</h3>
+
+<label>Passport Size Photo</label>
+<input type="file" id="photo" accept=".jpg,.jpeg,.png">
+<br><br>
+
+<label>Signature</label>
+<input type="file" id="sign" accept=".jpg,.jpeg,.png">
+
+<h3>Contact Details</h3>
+
+<label>Phone Number</label>
+<input type="text" id="phone" maxlength="10">
+<small></small>
+
+<label>Email ID</label>
+<input type="email" id="email">
+<small></small>
+
+<label>Password</label>
+<input type="password" id="password">
+<small></small>
+
+<label>Confirm Password</label>
+<input type="password" id="confirmPassword">
+<small></small>
+
+<div class="buttons">
+
+<button type="submit" class="submitBtn">
+Submit
+</button>
+
+<button type="reset" class="resetBtn">
+Reset
+</button>
+
+</div>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
